@@ -1,6 +1,6 @@
 ---
-title: mtlynch.io
-timezone: America/New_York
+title: blog.leguen.fr
+timezone: Europe/Paris
 collections:
   posts:
     title: Posts
@@ -56,14 +56,14 @@ defaults:
     classes: wide
 locale: en-US
 title_separator: "-"
-name: Michael Lynch
-description: Michael Lynch's tech blog.
+name: Pierre Le Guen
+description: Pierre Le Guen's tech blog.
 url:
 theme: minimal-mistakes-jekyll
 baseurl: 
 repository: 
 teaser: 
-words_per_minute: 200
+words_per_minute: 160
 comments:
   provider:
   disqus:
@@ -119,10 +119,10 @@ analytics:
   google:
     tracking_id:
 author:
-  name: Michael Lynch
+  name: Pierre Le Guen
   avatar: images/bio-photo.jpg
   bio: By day, a simple software engineer. By night, also a software engineer.
-  location: South Hadley, MA
+  location: Nantes, France
   home: /
   email: 
   uri: 
@@ -132,7 +132,7 @@ author:
   flickr: 
   facebook: 
   foursquare: 
-  github: mtlynch
+  github: PierreLeGuen
   google_plus: 
   keybase: 
   instagram: 

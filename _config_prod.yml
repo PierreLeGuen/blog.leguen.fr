@@ -3,9 +3,9 @@ url: https://mtlynch.io
 analytics:
   provider: custom
   google:
-    tracking_id: UA-78473158-1
+    tracking_id: UA-132531405-1
 comments:
   provider: disqus
   disqus:
-    shortname: silly-bits
+    shortname: leguen
 
