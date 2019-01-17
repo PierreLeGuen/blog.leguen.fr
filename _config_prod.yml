@@ -1,5 +1,5 @@
 # Config overrides for production.
-url: https://mtlynch.io
+url: https://blog.leguen.fr
 analytics:
   provider: custom
   google:
