@@ -117,7 +117,7 @@ social:
 analytics:
   provider: custom
   google:
-    tracking_id: UA-132531405-1
+  tracking_id: UA-132531405-1
 author:
   name: Pierre Le Guen
   avatar: images/bio-photo.jpg
