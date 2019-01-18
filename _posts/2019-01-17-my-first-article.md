@@ -1,12 +1,16 @@
 ---
-title:  "My first blog post"
-last_modified_at: 2019-01-17T17:18:58-04:00
-categories: 
-  - Jekyll
-tags:
-  - update
-toc: true
-toc_label: "Let's getting Started"
+title: That's my first article using travis
+layout: single
+author_profile: true
+read_time: true
+comments: true
+share: true
+related: true
+sidebar:
+  nav: main
+classes: wide
+excerpt: The standard techniques of good development can lead you astray if you don't
+  adjust them for unit tests.
 ---
 
 # Work to be done
