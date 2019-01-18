@@ -11,6 +11,9 @@ sidebar:
 classes: wide
 excerpt: The standard techniques of good development can lead you astray if you don't
   adjust them for unit tests.
+header:
+  teaser: ""
+  og_image: ""
 ---
 
 # Work to be done
