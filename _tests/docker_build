@@ -5,8 +5,8 @@ set -e
 # Echo commands to console.
 set -x
 
-IMAGE_NAME="blog-leguen/jekyll"
-CONTAINER_NAME="blog-leguen-fr-container"
+IMAGE_NAME="mtlynch/jekyll"
+CONTAINER_NAME="mtlynch-io-container"
 
 # Remove existing container.
 docker rm -f "$CONTAINER_NAME" || true
