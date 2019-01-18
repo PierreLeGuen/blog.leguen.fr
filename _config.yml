@@ -58,16 +58,16 @@ locale: en-US
 title_separator: "-"
 name: Pierre Le Guen
 description: Pierre Le Guen's tech blog.
-url:
+url: https://blog.leguen.fr
 theme: minimal-mistakes-jekyll
 baseurl: 
 repository: 
 teaser: 
 words_per_minute: 160
 comments:
-  provider:
+  provider: disqus
   disqus:
-    shortname:
+    shortname: leguen
   discourse:
     server: 
   facebook:
@@ -104,7 +104,7 @@ bing_site_verification:
 alexa_site_verification: 
 yandex_site_verification: 
 twitter:
-  username: deliberatecoder
+  username: Pierre_Le_Guen
 facebook:
   username: 
   app_id: 
@@ -115,16 +115,16 @@ social:
   name: 
   links: 
 analytics:
-  provider:
+  provider: custom
   google:
-    tracking_id:
+  tracking_id: UA-132531405-1
 author:
   name: Pierre Le Guen
   avatar: images/bio-photo.jpg
-  bio: By day, a simple software engineer. By night, also a software engineer.
+  bio: Student in computer science in France. I love to share with the world.
   location: Nantes, France
   home: /
-  email: 
+  email: pierre@leguen.fr
   uri: 
   bitbucket: 
   codepen: 
@@ -137,13 +137,13 @@ author:
   keybase: 
   instagram: 
   lastfm: 
-  linkedin: 
+  linkedin: pierre-le-guen
   pinterest: 
   soundcloud: 
   stackoverflow: 
   steam: 
   tumblr:
-  twitter: deliberatecoder
+  twitter: Pierre_Le_Guen
   vine: 
   weibo: 
   xing: 
