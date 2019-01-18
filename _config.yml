@@ -65,9 +65,9 @@ repository:
 teaser: 
 words_per_minute: 160
 comments:
-  provider: disqus
+  provider:
   disqus:
-    shortname: leguen
+    shortname:
   discourse:
     server: 
   facebook:
@@ -115,9 +115,9 @@ social:
   name: 
   links: 
 analytics:
-  provider: custom
+  provider:
   google:
-  tracking_id: UA-132531405-1
+  tracking_id:
 author:
   name: Pierre Le Guen
   avatar: images/bio-photo.jpg
