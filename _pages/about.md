@@ -11,7 +11,7 @@ header:
 hide_signup: true
 ---
 
-{% include image.html file="author-photo.jpg" alt="Author photo"  img_link=true max_width="350px" class="align-right" %}
+<!-- {% include image.html file="author-photo.jpg" alt="Author photo"  img_link=true max_width="350px" class="align-right" %} -->
 
 Pierre LE GUEN developer and blogger.
 

@@ -13,4 +13,4 @@ sort_by: read_date
 sort_order: reverse
 ---
 
-I try to read as much as possible. This is a way for me to share what I've been reading and forces me to think more deliberately about what I take from each book. Derek Sivers' [keeps public book notes](https://sivers.org/book) provided strong inspiration for these reports.
+Reading is for me a very good way to learn more about the world and to improve my self. That's why most of my books are self-developement oriented. 
