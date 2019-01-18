@@ -13,4 +13,4 @@ sort_by: read_date
 sort_order: reverse
 ---
 
-Reading is for me a very good way to learn more about the world and to improve my self. That's why most of my books are self-developement oriented. 
+Reading is for me a very good way to learn more about the world and to improve my self. That's why most of my books are self-developement oriented.
