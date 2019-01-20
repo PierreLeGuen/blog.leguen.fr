@@ -37,8 +37,9 @@ It appears that the power buttokhn is the issue here. One thing to know here is 
 
 Let's create the service that will start a bash script for us at start up.
 
-1. Create the file, e.g : ```$ touch suspendfix_pwrb.service```
-2. Edit the file with the followging service :
+* Create the file, e.g : ```$ touch suspendfix_pwrb.service```
+
+* Edit the file with the followging service :
 
 ```bash
 [Unit]
@@ -55,7 +56,7 @@ WantedBy=multi-user.target
 
 ## Starting the service
 
-Now enable our service using : ```# systemctl enable ./suspendfix_pwrb.service```
+* Now enable our service using : ```# systemctl enable ./suspendfix_pwrb.service```
 
 This finally resolve our issue. After some research I really can't find why the PWR button sends a wake up signal immediately after suspend.
 
