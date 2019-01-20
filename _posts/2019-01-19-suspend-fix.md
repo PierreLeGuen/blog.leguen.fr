@@ -53,6 +53,12 @@ RemainAfterExit=yes
 WantedBy=multi-user.target
 ```
 
-3. Now enable our service : ```# systemctl enable ./suspendfix_pwrb.service```
+## Starting the service
+
+Now enable our service using : ```# systemctl enable ./suspendfix_pwrb.service```
 
 This finally resolve our issue. After some research I really can't find why the PWR button sends a wake up signal immediately after suspend.
+
+# Conclusion
+
+I hope this solves your issue with suspend on your HP Spectre 13. Feel free to contact me if it did not.
