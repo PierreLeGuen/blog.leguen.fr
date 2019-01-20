@@ -5,16 +5,20 @@ author_profile: true
 sidebar:
   nav: main
 permalink: "/about/"
-excerpt: About the author
+excerpt: Wishing to know more about the author ?
 header:
-  teaser: images/about/author-photo.jpg
+  overlay_image: images/about/header-about.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 hide_signup: true
 ---
 
-<!-- {% include image.html file="author-photo.jpg" alt="Author photo"  img_link=true max_width="350px" class="align-right" %} -->
+Hey,
 
-Hey, my name is Pierre LE GUEN I am french blogger, freelancer and student doing an engineering degree in Computer Science at Nantes (in the west of France). I built this website to speak about IT (no particular field).
+My name is Pierre LE GUEN I am french blogger, freelancer and student doing an engineering degree in Computer Science at Nantes (in the west of France). I built this website to write about IT (no particular field).
 
-I hope you will enjoy your time browsing my website. If you find any points for improvement to share with me, feel free to contact me.
+I hope you will enjoy your time browsing my blog. If you find any room for improvement, feel free to contact me.
+
+Also you can check my online CV at [leguen.fr](https://leguen.fr).
 
 To get in touch, send an email to [pierre@leguen.fr](mailto:pierre@leguen.fr).

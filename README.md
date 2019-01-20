@@ -1,5 +1,7 @@
 # blog.leguen.fr
 
+Most of the readme as been written by [mtlynch](https://www.github.com/mtlynch). Huge thanks to him.
+
 ## Overview
 
 This is the source for https://blog.leguen.fr.
@@ -90,11 +92,16 @@ Indent the body of a block by two spaces from its opening and closing tags.
 
 * Write comments in full sentences using standard English capitalization and punctuation.
 
+## Firebase deploy
+
+1. Connect to firebase and generate a token using ```firebase login:ci```
+2. go on travis-ci and add the generated key.
+
 ## Dev / prod consistency
 
-`script/_serve_dev.sh` builds the site in dev mode and starts a web server on http://localhost:4000.
+`script/_serve_dev.sh` builds the site in dev mode (without google analytics and disqus) and starts a web server on http://localhost:4000.
 
-`.travis.yml` builds the site in production mode and pushes the static files to Firebase.
+`.travis.yml` when pushing on github, it builds the site in production mode and pushes the static files to Firebase.
 
 Dev and prod configurations should be as similar as possible. Any change in dev should also be made to prod and vice versa, except for features we deliberately make different for dev and prod (e.g. removing GA tag from dev, removing jekyll-admin from prod).
 
