@@ -17,11 +17,13 @@ tags:
 - how-to
 - systemctl
 - issues
+- HP
+- Spectre
 ---
 
 # The problem
 
-After switching from Windows to Linux I faced a problem with my HP Spectre, when I close the lid the laptop doesn't go in sleep mode.
+After switching from Windows to Linux I faced a problem with my HP Spectre when I close the lid the laptop doesn't go in sleep mode.
 
 I looked for a workaround on the web without success.
 
@@ -31,19 +33,19 @@ I looked for a workaround on the web without success.
 
 The way to fix this is by browsing the /proc/acpi/wakeup file. This way you can find what wake up the laptop from suspend.
 
-It appears that the power buttokhn is the issue here. One thing to know here is that the /proc/acpi/wakeup file can't be edited directly. To achieve what we want, we need to create a service that will change the value for us.
+It appears that the power button is the issue here. One thing to know here is that the /proc/acpi/wakeup file can't be edited directly. To achieve what we want, we need to create a service that will change the value for us.
 
 ## The script
 
-Let's create the service that will start a bash script for us at start up.
+Let's create the service that will start a bash script for us at startup.
 
-* Create the file, e.g : ```$ touch suspendfix_pwrb.service```
+* Create the file, e.g:```$ touch suspendfix_pwrb.service```
 
-* Edit the file with the followging service :
+* Edit the file with the following service :
 
 ```bash
 [Unit]
-Description=fix to prevent system from waking immediately after suspend, this is due to a bug with the power button.
+Description=fix to prevent the system from waking immediately after suspend, this is due to a bug with the power button.
 
 [Service]
 ExecStart=/bin/sh -c '/bin/echo PWRB > /proc/acpi/wakeup'
@@ -58,7 +60,7 @@ WantedBy=multi-user.target
 
 * Now enable our service using : ```# systemctl enable ./suspendfix_pwrb.service```
 
-This finally resolve our issue. After some research I really can't find why the PWR button sends a wake up signal immediately after suspend.
+This finally resolves our issue. After some research, I really can't find why the PWR button sends a wake-up signal immediately after suspend.
 
 # Conclusion
 
