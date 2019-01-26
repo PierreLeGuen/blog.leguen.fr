@@ -1,0 +1,31 @@
+# A journey to become Freelance: First Steps
+
+The first time I heard about freelance work was in September 2018 at the Startup Weekend in Nantes, in La Cantine. During this weekend, I had the opportunity to meet some very talented people, including freelancers.
+
+They praised me for freelance work, including remote work, well-paid missions, doing what you want when you want, and this adventure would allow me to acquire many skills...
+
+As a student, it would be a very good experience for me. That's when I started asking myself a lot of questions:
+
+- How to succeed as a freelancer and a student?
+- What's the best structure for my freelance business?
+- How to create this business?
+- Which kind of services will I do?
+- Where to find the first clients?
+- And a lot more questions...
+
+## How to succeed as a freelancer and a student?
+
+I first tried to find some article on [medium](medium.com). I came across many of them, including one saying that "[You`ll Never Work as a Freelancer While You're a Student](https://medium.com/swlh/you-ll-never-work-as-a-freelancer-while-youre-a-student-b77d3a806ebd)". This made me realize the importance of personal branding and qualifications. But **challenge accepted**, and I will work as a freelancer while being a student.
+
+Doing my engineering degree in Computer Science takes me approximately 40-45 hours per week, so this lets me 10-15 hours for freelancing every week.  
+
+## What's the best structure for my freelance business?
+
+There are many types of companies in France: *Entreprise Individuelle*, *Entreprise Individuelle à Responsabilité Limitée*, *Entreprise Unipersonnelle à Responsabilité Limitée*, *Société à Responsibilité Limitée*,*Société en Nom Collectif* ,*Société par Actions Simplifiée*, *Société par Actions Simplifiée Unipersonnelle*, and *Société Anonyme Par Actions* and others I've probably forgotten. 
+
+### How to choose between all of them?
+
+It easier than it looks, I wont go deep in this but if you start freelance in France the best option is the Entreprise Individuelle (EI), the structure can be modified in the future.
+
+
+
