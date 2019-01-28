@@ -63,7 +63,7 @@ theme: minimal-mistakes-jekyll
 baseurl: 
 repository: 
 teaser: 
-words_per_minute: 160
+words_per_minute: 130
 comments:
   provider:
   disqus:
